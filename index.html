@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn 4 Free</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <script>
+      function abc()
+      {
+        window.alert("Your message has been sent successfully");
+      }
+    </script>
+
+  </head>
+  <body>
+    <div>
+      <nav>
+        <!-- <div class="dropdown-menu text-right">
+          <div class="bars">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="dropdown-list nav-menu">
+            <ul class="no-list-style">
+              <li>
+                <a href="#"> Home </a>
+              </li>
+              <li>
+                <a href="#about"> About </a>
+              </li>
+              <li>
+                <a href="#portfolio">Courses</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+
+        <ul class="no-list-style horizontal-list text-center nav-menu">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#portfolio">Categories</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <header id="body-header">
+        <div id="name-social-container">
+          <center>
+            <div id="content" class="text-center">
+              <h1 id="my-name">Learn 4 Free</h1>
+              <h5 style="color: white; opacity: 60%">
+                Learn anytime, anywhere, for free.
+              </h5>
+            </div>
+          </center>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section id="about">
+        <div id="about-para">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            <span class="text-highlight">typesetting industry</span>. Lorem
+            Ipsum has been the industry's standard
+            <span class="text-highlight">dummy text ever</span> since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s
+            <span class="text-highlight">with the release of Letraset</span>
+            sheets containing Lorem Ipsum.
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span> <strong>CATEGORIES</strong> </span>
+        </h1>
+
+        <div id="portfolio-container">
+          <div class="portfolio-image-container">
+            <img src="IT.jpg" />
+            <div class="portfolio-details">
+              <p class="category">IT and Software</p>
+            </div>
+          </div>
+
+          <div class="portfolio-image-container">
+            <img src="art.png" />
+            <div class="portfolio-details">
+                <a href="https://youtube.com/playlist?list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn" target="_blank">
+              <p class="category">Art and Design</p>
+            </a>
+            </div>
+          </div>
+
+          <div class="portfolio-image-container">
+            <img src="music.jpeg" />
+            <div class="portfolio-details">
+                <a href="https://youtube.com/playlist?list=PLNvtkhStRIghweswc8E-b-dBCu4Mdhxf3" target="_blank">
+              <p class="category">Music Production</p>
+            </a>
+            </div>
+          </div>
+
+          <div class="portfolio-image-container">
+            <img src="development.jpeg" />
+            <div class="portfolio-details">
+                <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" target="_blank">
+              <p class="category">Web Development</p>
+            </a>
+            </div>
+          </div>
+
+          <div class="portfolio-image-container">
+            <img src="health and lifestyle.jpg" />
+            <div class="portfolio-details">
+              <p class="category">Health and Lifestyle</p>
+            </div>
+          </div>
+
+          <div class="portfolio-image-container">
+            <img src="photography.jpg" />
+            <div class="portfolio-details">
+              <p class="category">Photography</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="section-heading mb50px">
+          <span>
+            <i class="far fa-address-card"></i>
+          </span>
+          <span> Contact </span>
+        </h1>
+        <div id="contact-container">
+          <div id="contact-form-container">
+            <form id="contact-form">
+              <input
+                id="input-name"
+                name="name"
+                type="text"
+                placeholder="Your Name"
+              />
+              <input
+                id="input-email"
+                name="input-email"
+                type="text"
+                required
+                placeholder="Your Email"
+              />
+              <textarea
+                id="input-message"
+                name="input-message"
+                rows="2"
+                cols="40"
+                placeholder="Message"
+              ></textarea>
+              <button class="sub-btn" type="submit" onclick="abc()">SEND MESSAGE</button>
+            </form>
+          </div>
+          <div id="my-details-container">
+            <h3>Get In touch</h3>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+
+            <h3>Our Address</h3>
+            <div class="my-details-info-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Jamshedpur, India</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fas fa-mobile-alt"></i>
+              <span>123456789</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="far fa-envelope"></i>
+              <span>ouremail@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center social-icons">
+          <ul class="no-list-style horizontal-list">
+            <li>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-quora"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
